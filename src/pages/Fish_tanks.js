@@ -1,18 +1,20 @@
 import React from "react";
-import Card_Fishtank from "../components/Card_Fishtank.js";
-import Navbar_User from "../components/Navbar_User.js";
-import Title_FishTanks from "../components/Title_FishTanks.js";
+import CardFishtank from "../components/Card_Fishtank.js";
+import NavbarUser from "../components/Navbar_User.js";
+import TitleFishTanks from "../components/Title_FishTanks.js";
 
-class Fish_tanks extends React.Component{
+class FishTanks extends React.Component{
     render(){
         return(
             <div>
-                <Navbar_User/>
-                <Title_FishTanks/>
-                <Card_Fishtank/>
+                <NavbarUser/>
+                <TitleFishTanks/>
+                <div className="container">
+                <CardFishtank/>
+                </div>
             </div>
         )
     }
 }
 
-export default Fish_tanks
+export default FishTanks

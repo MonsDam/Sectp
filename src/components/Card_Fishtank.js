@@ -1,17 +1,17 @@
 import React from "react";
 
 
-function Card_Fishtank(){
+function CardFishtank(){
     return(
-        <div className="div-margin">
+        <div className="">
             <div className="row row-cols-1 row-cols-md-2 g-4">
-                <div className="col border-card">
-                    <div className="card h-100 border-card ">
+                <div className="col">
+                    <div className="card h-100 border-card shadow">
                         <img src="/images/fish.jpg" className="card-img-top img-fish" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Pecera 1</h5>
                             <p className="card-temperature">22°C</p>
-                            <a href="#" className="btn btn-primary">See more</a>
+                            <a href="/" className="btn btn-primary">See more</a>
                         </div>
                     </div>
                 </div>
@@ -49,4 +49,4 @@ function Card_Fishtank(){
     )
 }
 
-export default Card_Fishtank
+export default CardFishtank
