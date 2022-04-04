@@ -1,0 +1,34 @@
+
+.title-fishtanks{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px;
+    margin-left: 70px;
+}
+
+.input-search{
+    margin-top: 45px;
+    height: min-content;
+    width: 257px;
+    border-radius: 25px;
+    padding-left: 15px;
+    border-color: white;
+    margin-left: 598px;
+}
+
+.div-margin{
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+.border-card{
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.img-fish{
+    width: auto;
+    height: 224px;
+
+}

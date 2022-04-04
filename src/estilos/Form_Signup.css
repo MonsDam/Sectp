@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(223, 220, 217);
+}
+.text-up{
+    margin-top: 8%;
+    font-size: 20px;
+    color: rgb(38, 132, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+.label{
+    margin-left: 60px;
+}
+
+.border{
+    border-color: rgb(5, 152, 235);
+}
+
+
+

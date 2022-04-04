@@ -1,0 +1,13 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.full-screen {
+    height: 100vh;
+    background-color: #f0f9f1
+}
+
+.img-notfound {
+    max-width: 50%;
+}

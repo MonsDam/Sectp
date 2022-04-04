@@ -1,0 +1,18 @@
+
+#header{
+    background-color: rgb(5, 152, 235);
+}
+.logo{
+    margin-left: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: start;
+    color: white;
+}
+.nav-link-color{
+    color: rgb(240,240,240) !important;
+}
+
+.nav-link-color:hover {
+    color: rgb(253,253,253) !important;
+}
